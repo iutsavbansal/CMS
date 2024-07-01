@@ -18,7 +18,7 @@ body {
     color: var(--black);
     font-size: var(--font-size-base);
     background-color: #dff3f3;
-    background-image: url("/img/background-image.jpg");
+    /* background-image: url("/img/background-img.jpg"); */
     margin: 0;
 }
 
@@ -232,14 +232,16 @@ img {
 
 .article-ul li:hover {
     filter: none;
+    font-weight: bold;
 }
 
 .article-ul:hover li {
-    filter: blur(3px);
+    /* filter: blur(3px); */
 }
 
 .article-ul:hover li:hover {
     filter: none;
+   
 }
 
 .pagination {
